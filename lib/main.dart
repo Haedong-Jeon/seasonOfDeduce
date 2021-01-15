@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:seasonOfDeduce/screens/writeScreen.dart';
+import './screens/writeScreen.dart';
 import './screens/launchScreen.dart';
 
 void main() => runApp(MyApp());
