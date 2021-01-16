@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seasonOfDeduce/screens/tabControlScreen.dart';
 import './screens/writeScreen.dart';
 import './screens/launchScreen.dart';
 
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: LaunchScreen(),
       routes: {
         WriteScreen.routeName: (context) => WriteScreen(),
+        TabControlSCreen.routeName: (context) => TabControlSCreen(),
       },
     );
   }

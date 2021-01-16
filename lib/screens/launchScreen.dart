@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:seasonOfDeduce/screens/writeScreen.dart';
+import 'package:seasonOfDeduce/screens/tabControlScreen.dart';
+import './writeScreen.dart';
 
 class LaunchScreen extends StatelessWidget {
   void goToMainTap(BuildContext context) {
-    Navigator.of(context).pushNamed(WriteScreen.routeName);
+    Navigator.of(context).pushNamed(TabControlSCreen.routeName);
   }
 
   @override
